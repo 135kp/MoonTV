@@ -3,6 +3,7 @@
 'use client';
 
 import { ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Suspense, useEffect, useState } from 'react';
 
@@ -168,6 +169,21 @@ function HomeClient() {
             onChange={(value) => setActiveTab(value as 'home' | 'favorites')}
           />
         </div>
+
+
+                {/* 在这里添加您的图片 */}    
+        <section className='mb-8'>    
+          <Link href="https://www.gamck.com">    
+            <Image     
+              src="https://gamck.com/wp-content/uploads/pcimage/20250414/Elden%20Ringin4414jkzfs.jpg"     
+              alt="描述"     
+              width={500}  
+              height={300}  
+              className="w-full max-w-md mx-auto rounded-lg cursor-pointer hover:opacity-80 transition-opacity"    
+            />    
+          </Link>    
+        </section>  
+        
 
         <div className='max-w-[95%] mx-auto'>
           {activeTab === 'favorites' ? (
