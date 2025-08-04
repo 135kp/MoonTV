@@ -169,6 +169,21 @@ function HomeClient() {
           />
         </div>
 
+        
+
+            {/* 在这里添加您的图片 */}  
+        <section className='mb-8'>  
+          <Link href="https://www.gamck.com">  
+            <Image   
+              src="https://gamck.com/wp-content/uploads/pcimage/20250414/Elden%20Ringin4414jkzfs.jpg"   
+              alt="描述"   
+              className="w-full max-w-md mx-auto rounded-lg cursor-pointer hover:opacity-80 transition-opacity"  
+            />  
+          </Link>  
+        </section>  
+
+        
+
         <div className='max-w-[95%] mx-auto'>
           {activeTab === 'favorites' ? (
             // 收藏夹视图
