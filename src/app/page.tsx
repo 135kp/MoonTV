@@ -179,7 +179,7 @@ function HomeClient() {
       <Image     
         src="https://gamck.com/wp-content/uploads/pcimage/20250414/Elden%20Ringin4414jkzfs.jpg"     
         alt="描述"     
-        width={1200}  
+        width={1400}  
         height={400}  
         className="w-full h-auto rounded-lg cursor-pointer hover:opacity-80 transition-opacity object-cover"  
         style={{ aspectRatio: '3/1' }}  
