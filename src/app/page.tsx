@@ -170,19 +170,24 @@ function HomeClient() {
           />
         </div>
 
+        
 
-                {/* 在这里添加您的图片 */}    
-        <section className='mb-8'>    
-          <Link href="https://www.gamck.com">    
-            <Image     
-              src="https://gamck.com/wp-content/uploads/pcimage/20250414/Elden%20Ringin4414jkzfs.jpg"     
-              alt="描述"     
-              width={500}  
-              height={300}  
-              className="w-full max-w-md mx-auto rounded-lg cursor-pointer hover:opacity-80 transition-opacity"    
-            />    
-          </Link>    
-        </section>  
+{/* 在这里添加您的广告图片 */}    
+<section className='mb-8 px-4'>    
+  <Link href="https://www.gamck.com">    
+    <div className="relative w-full max-w-4xl mx-auto">  
+      <Image     
+        src="https://gamck.com/wp-content/uploads/pcimage/20250414/Elden%20Ringin4414jkzfs.jpg"     
+        alt="描述"     
+        width={1200}  
+        height={400}  
+        className="w-full h-auto rounded-lg cursor-pointer hover:opacity-80 transition-opacity object-cover"  
+        style={{ aspectRatio: '3/1' }}  
+      />    
+    </div>  
+  </Link>    
+</section> 
+        
         
 
         <div className='max-w-[95%] mx-auto'>
